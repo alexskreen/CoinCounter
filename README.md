@@ -2,8 +2,7 @@
 
 #### _This site comes with the all basic parts to get you started making a single page website with webpack fast. | Feb 5th. 2020_
 
-#### By _** Dusty McCord**_
-[link to demo site coming](https://dustatron.github.io/webpack-boilerplate/)
+#### By _** Alex Skreen**_
 
 ## Description
 
@@ -135,5 +134,5 @@ const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${pr
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-Copyright (c) 2020 **_Dusty McCord_**
+Copyright (c) 2020 **_Alex McCord_**
 
