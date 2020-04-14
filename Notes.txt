@@ -1,0 +1,126 @@
+Part 1
+Create a coin counter function that uses recursion to solve the problem.
+
+Part 2
+Create a coin counter function that uses a closure that can be used with functions for each type of change (quarters, nickels, dimes and pennies).
+
+
+const change = [1,5,10,25,100,500,1000];
+$4.99
+499
+
+return results[100, 100, 100, 100, 25, 25, 25, 10, 10, 1, 1, 1, 1]
+
+
+ FAIL  __tests__/counter.test.js
+  ● Counter › should return array of change 
+for 100, 25, 25
+
+    ReferenceError: ChangeAmount is not defi
+ned
+
+       6 |     const changeAmount = 150;
+       7 |     const correctAnswerArray = [100, 25, 25];
+    >  8 |     const result = Counter.getChange(ChangeAmount, []);
+         |                                      ^
+       9 |     expect(result).toEqual(correctAnswerArray);
+      10 |   });
+      11 | });
+
+      at Object.<anonymous> (__tests__/counter.test.js:8:38)
+
+Test Suites: 2 failed, 2 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        3.045s
+Ran all test suites.
+npm ERR! Test failed.  See above for more de
+tails.
+
+                     WHITE-BOARD 
+        ----------------------------------
+        DRAKE 666 420
+
+example: const prefixSir = addPrefix("Sir");
+
+
+function setName(userName) {
+  return function (suffix) {
+    return `${suffix} ${userName}`
+  }
+}
+
+const getName = setName("Big Smokey");
+
+getName()
+"undefined Big Smokey"
+
+getName("Sir");
+
+> "Sir Big Smokey"
+
+                     WHITE-BOARD 
+        ----------------------------------
+
+const lionSound = soundMaker("roar");
+//returns "The {Lion} goes {roar}";
+const mouseSound = soundMaker("squeak");
+
+
+
+
+function getSound("roar")  {
+  return function ("squeak")  {
+    return `${"roar"} ${"squeak"}`
+
+  }
+}
+
+const mouseSound = setSound("squeak");
+
+getSound("squeak");
+
+> "squeak"
+
+                     WHITE-BOARD 
+        ----------------------------------
+const misterJunior = nameEnhancer("Mister")("Junior");
+const duchessThird = nameEnhancer("Duchess")("The Third");
+
+returns "Mister puppet master Junior";
+ 
+ function setEnhancment(firstEnhancement) {
+   return fuction (prefix){
+      return `${firstEnhancment} Puppet Master ${secondEnhancment}`
+   }
+ }       
+ const getEnhancer = setEnhancement("puppet master);
+  getEnhancer()
+
+
+
+
+
+
+
+function(yourName) {
+  return `${salutation}! Nice to meet you, ${yourName}!`
+}
+
+        
+
+
+function setEnhancment(prefix) {
+    return function(suffix) {
+        return function (name) {
+            return `${prefix} ${name} ${suffix}`;
+        }
+    }
+}
+const fullName = setEnhancment("Sir")("Jr.")("Puppet Master")
+
+fullName
+return Sir Puppet Master
+
+
+        fak
